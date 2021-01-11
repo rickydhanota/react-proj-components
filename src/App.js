@@ -16,7 +16,8 @@ function App() {
         <li>Feed the dogs</li>
       </ul>
 
-      <PersonCard firstName = {"Ricky"} lastName = {"Dhanota"} age = {26} hairColor = {"Black"} />
+      <PersonCard firstName = {"Ricky"} lastName = {"Dhanota"} age = {26} hairColor = {"Black"} /> 
+      {/* This is a prop */}
       <PersonCard firstName = {"Sukhpreet"} lastName = {"Gill-Dhanota"} age = {27} hairColor = {"Blonde"} />
       <PersonCard firstName = {"Cleo"} lastName = {"Gill"} age = {5} hairColor = {"Grey"} />
 

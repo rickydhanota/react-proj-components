@@ -2,6 +2,8 @@ import './App.css';
 import React from 'react';
 import SomeClassComponent from "./SomeClassComponent";
 import PersonCard from "./PersonCard";
+import PersonCardPropFunction from './PersonCardPropFunction';
+
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
       <PersonCard firstName = {"Cleo"} lastName = {"Gill"} age = {5} hairColor = {"Grey"} />
 
       <SomeClassComponent ></SomeClassComponent>
+
+      {/* This is the prop functions */}
+      <PersonCardPropFunction firstName = {"Ricky"} lastName = {"Dhanota"} age = {26} hairColor = {"Black"}  />
 
     </div>
   );
